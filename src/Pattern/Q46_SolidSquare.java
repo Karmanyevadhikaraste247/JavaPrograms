@@ -1,3 +1,4 @@
+package Pattern;
 import java.util.Scanner;
 
 public class Q46_SolidSquare {
