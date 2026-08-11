@@ -28,12 +28,12 @@ public class Q42_Armstrong {
         int original = n;
         int temp = n;
         int count = 0;
-
+        int sum = 0;
         while(temp > 0){
             temp = temp / 10;
             count++;
         }
-        int sum = 0;
+
         while (n > 0){
             int digit = n % 10;
             n = n / 10;
